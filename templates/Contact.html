@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Business Casual - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='favicon.ico') }}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static',filename='css/styles.css') }}" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">MOSCOW COFFEE HOUSE SITE SELECTION</span>
+                <span class="site-heading-lower">咖啡館經營型態選址適配程度</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href=" {{ url_for('index') }}">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href=" {{ url_for('research') }}">Research</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href=" {{ url_for('ML2') }}">ML</a></li>
+                      <!--  <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href=" {{ url_for('conclusion') }}">Conclusion</a></li>-->
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href=" {{ url_for('Contact') }}">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+                            <!--放視覺化-->
+                            
+
+                           
+                            <!--檔案下載-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section about-heading">
+            <div class="container">
+                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{{ url_for('static',filename='images/us.jpg') }}" alt="..." />
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-5">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">Contact</span>
+                                    <span class="section-heading-lower">about us</span>
+                                </h2>
+                                <em>Instructor </em> 
+                                <p>蔡智勇、黃登揚</p>
+                                
+                                <em>Presented by</em>
+                                <div class="wrap">
+                                    <div class="content">
+                                      <p>張捷怡</p>
+                                    </div>
+                                    <img src="{{ url_for('static',filename='images/捷怡.jpg') }}" width="200">
+                                    <a href="mailto: hsnu995@gmail.com"><img src="{{ url_for('static',filename='images/捷怡.png') }}" width="200"></a>
+                                    <style>.wrap{
+                                        display: flex;
+                                        width: 857px;
+                                        margin: 0 auto;
+                                      }
+                                      .content{
+                                        width: 348px;
+                                        background: #b3d4d1;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                      }
+                                      .content p{
+                                        width: 237px;
+                                        font-size: 70px;
+                                        color: #ffffff;
+                                        font-family: Helvetica;
+                                        letter-spacing: 1px;
+                                        line-height: 1.3;
+                                        
+                                      }</style>
+                                  </div>
+                                  <br>
+                                <div class="wrap">
+                                    <div class="content">
+                                      <p>蔡佳芸</p>
+                                    </div>
+                                    <img src="{{ url_for('static',filename='images/佳芸.jpg') }}" width="200">
+                                    <a href="mailto: jasmine.tsai1657@gmail.com"><img src="{{ url_for('static',filename='images/佳芸.png') }}" width="200"></a>
+                                    <style>.wrap{
+                                        display: flex;
+                                        width: 857px;
+                                        margin: 0 auto;
+                                      }
+                                      .content{
+                                        width: 348px;
+                                        background: #b3d4d1;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                      }
+                                      .content p{
+                                        width: 237px;
+                                        font-size: 70px;
+                                        color: #ffffff;
+                                        font-family: Helvetica;
+                                        letter-spacing: 1px;
+                                        line-height: 1.3;
+                                        
+                                      }</style>
+                                  </div>
+                                  <br>
+                                  <div class="wrap">
+                                    <div class="content">
+                                      <p>許家榕</p>
+                                    </div>
+                                    <img src="{{ url_for('static',filename='images/家榕.jpeg') }}" width="200" height="200">
+                                    <a href="mailto: agneshsu0109@gmail.com"><img src="{{ url_for('static',filename='images/家榕.png') }}" width="200"></a>
+                                    <style>.wrap{
+                                        display: flex;
+                                        width: 857px;
+                                        margin: 0 auto;
+                                      }
+                                      .content{
+                                        width: 348px;
+                                        background: #b3d4d1;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                      }
+                                      .content p{
+                                        width: 237px;
+                                        font-size: 70px;
+                                        color: #ffffff;
+                                        font-family: Helvetica;
+                                        letter-spacing: 1px;
+                                        line-height: 1.3;
+                                        
+                                      }</style>
+                                  </div>
+                                  <br>
+                                  <div class="wrap">
+                                    <div class="content">
+                                      <p>巫信賢</p>
+                                    </div>
+                                    <img src="{{ url_for('static',filename='images/信賢2.jpg') }}" width="200">
+                                    <a href="mailto: senshin0125@gmail.com"><img src="{{ url_for('static',filename='images/信賢.png') }}" width="200"></a>                                    <style>.wrap{
+                                        display: flex;
+                                        width: 857px;
+                                        margin: 0 auto;
+                                      }
+                                      .content{
+                                        width: 348px;
+                                        background: #b3d4d1;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                      }
+                                      .content p{
+                                        width: 237px;
+                                        font-size: 70px;
+                                        color: #ffffff;
+                                        font-family: Helvetica;
+                                        letter-spacing: 1px;
+                                        line-height: 1.3;
+                                        
+                                      }</style>
+                                  </div>
+                                  <br>
+                                  <div class="wrap">
+                                    <div class="content">
+                                      <p>蔡承宏</p>
+                                    </div>
+                                    <img src="{{ url_for('static',filename='images/承宏.jpg') }}" width="200">
+                                    <a href="mailto: o912233905@gmail.com"><img src="{{ url_for('static',filename='images/承宏.png') }}" width="200"></a>
+
+
+                                  </div>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static',filename='js/scripts.js')}}"></script>
+        
+    </body>
+</html>

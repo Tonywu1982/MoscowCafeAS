@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Business Casual - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='favicon.ico') }}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static',filename='css/styles.css') }}" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">MOSCOW COFFEE HOUSE SITE SELECTION</span>
+                <span class="site-heading-lower">咖啡館經營型態選址適配程度</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('index')}}">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('research')}}">Research</a></li>
+                    <!--    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('Contact')}}">Contact</a></li>-->
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('ML2')}}">ML</a></li>
+                    <!--    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('conclusion')}}">Conclusion</a></li>-->
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href=" {{ url_for('Contact') }}">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <div class="cta-inner bg-faded text-center rounded">
+                            <h2 class="section-heading mb-5">
+                                <span class="section-heading-upper">chart</span>
+                                <span class="section-heading-lower">Visual</span>
+                            </h2>
+                            <!--放視覺化-->
+                            <!--    <img src="./static/class/class{{result[0]}}.jpg" height="300" width="400" alt="">
+                                <br>
+                                <img src="./static/bar/12.png" height="300" width="400" alt="">
+                                <br>
+                                <img src="./static/population/{{ result[1] }}.png" height="300" width="400" alt="">
+                                <br>
+                                <img src="./static/pie/pie_type_{{result[1]}}.png" height="300" width="400" alt="">
+                                <br>   
+                            -->
+                            <h3>此房產適合開設此型態咖啡館</h3>   
+                            <img src="./static/class/class{{result[0]}}.jpg" height="300" width="350" alt="">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h3>此房產所在區域各類咖啡館統計資訊</h3>
+                            <iframe src="./static/bar/{{ result[1] }}.html" width="100%" height="500"></iframe>
+                            <br/>
+                            <h3>此房產所在區域消費潛力族群統計</h3>
+                            <iframe src="./static/population/{{ result[1] }}.html" width="100%" height="500"></iframe>
+                            <br/>
+                            <h3>此房產所在區域房屋產品型態比例</h3>
+                            <iframe src="./static/pie/PIE_{{ result[1] }}.html" width="100%" height="500"></iframe>
+                            <!--檔案下載-->
+                            <br/>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section about-heading">
+            <div class="container">
+                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{{ url_for('static',filename='images/about.jpg')}}" alt="..." />
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-5">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">Conclusion</span>
+                                    <span class="section-heading-lower">Future application</span>
+                                </h2>
+                                <ul>
+                                    <li>我們認為若是未來能夠加入<span style="color:#e74c3c">總體經濟數據</span>，能夠研究與時間序列相關，經濟景氣循環等議題的探討。</li>
+                                    <li>而另一方面的延伸應用，則是藉由測重點不同提供特定</span><span style="color:#e74c3c">目標市場的消費者輪廓</span>，例如側重人口和大眾運輸數據可以評估大型場館的設立、搭配房價資訊做住宅購買的性價比分析等。如果連結廠商已有的<span style="color:#e74c3c">客戶資料庫</span>，則有望挖掘潛在的商機</li>
+                                    <li>而對於政府相關部門，亦可為<span style="color:#e74c3c">都市規劃和商業發展</span>提供更全面的評估資訊。</li>
+                                </ul>
+                                <p class="mb-0">
+                                <br>
+
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js')}}"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static',filename='js/scripts.js')}}"></script>
+    </body>
+</html>

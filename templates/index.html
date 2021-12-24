@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Business Casual - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='favicon.ico') }}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static',filename='css/styles.css') }}" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">MOSCOW COFFEE HOUSE SITE SELECTION</span>
+                <span class="site-heading-lower">咖啡館經營型態選址適配程度</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('index')}}">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('research')}}">Research</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('ML2')}}">ML</a></li>
+                    <!--    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ url_for('conclusion')}}">Conclusion</a></li>-->
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href=" {{ url_for('Contact') }}">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section clearfix">
+            <div class="container">
+                <div class="intro">
+                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ url_for('static',filename='images/intro.jpg') }}" alt="..." />
+                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">BIG DATA ANALYSIS TOPIC</span>
+                            <span class="section-heading-lower">Worth scan</span>
+                        </h2>
+                        <p class="mb-3">由大數據提供投資者對當地商業活動(以咖啡店為例)多種方向
+                            的分析，甚至找出更深層次文化潛在商機的可能性。
+                            預測值採計樣本欄位 1.5公里範圍內咖啡廳消費等級 
+                            500、1000、1500、2500、4000、high
+                            統整為：經濟、小資、高檔三種咖啡廳型態的適合營業程度，
+                            藉由此樣本地理環境與消費族群組成分析適合的咖啡館選址為本次決策目標。  </p>
+                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href=" {{ url_for('ML2') }}">Direction!</a></div>
+                    </div>
+                </div>
+            </div>
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;"> <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEpaoiXBow&#x2F;view?embed"> </iframe></div>
+        </section>
+        <section class="page-section cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <div class="cta-inner bg-faded text-center rounded">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">Target</span>
+                                <span class="section-heading-lower">Motivation</span>
+                            </h2>
+                            <p class="mb-0">過去20多年俄羅斯咖啡館數量呈指數級增長，連鎖咖啡館/酒吧在2013
+                                年增長 47%，從各種文字資料和數據中，2012 ~ 2016 年間這股風潮方興未
+                                艾，而再細分莫斯科兩家龍頭咖啡連鎖店 Shokoladnitsa 和 Coffee
+                                House，Shokoladnitsa 更接近意大利式咖啡館，擁有舒適的環境；而
+                                Coffee House 則是屬於比較美式，裝潢輕快簡單，因此客戶群也有所不同。
+                                 Coffee House 是 30 歲以下消費者的首選，而 Shokoladnitsa 則受到更
+                                成熟的觀眾的青睞。相同的是大多數咖啡館和 Shokoladnitsa 分店都位於新
+                                購物中心和商業中心的美食廣場。由此可以看出開設一家咖啡館考量的因素雖
+                                然相當多元，但是依照其目標客群的差異，還是會有不同的考量因素，
+                                這也是我們想探索的方向。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static',filename='js/scripts.js')}}"></script>
+    </body>
+</html>

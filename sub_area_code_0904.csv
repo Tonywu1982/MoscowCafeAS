@@ -1,0 +1,147 @@
+sub_area,area_id,area,,sub_area_id
+Arbat,1,CA,1,101
+Basmannoe,1,CA,2,102
+Hamovniki,1,CA,3,103
+Jakimanka,1,CA,4,104
+Krasnosel'skoe,1,CA,5,105
+Meshhanskoe,1,CA,6,106
+Presnenskoe,1,CA,7,107
+Taganskoe,1,CA,8,108
+Tverskoe,1,CA,9,109
+Zamoskvorech'e,1,CA,10,110
+Ajeroport,2,NoA,1,201
+Begovoe,2,NoA,2,202
+Beskudnikovskoe,2,NoA,3,203
+Dmitrovskoe,2,NoA,4,204
+Golovinskoe,2,NoA,5,205
+Horoshevskoe,2,NoA,6,206
+Hovrino,2,NoA,7,207
+Koptevo,2,NoA,8,208
+Levoberezhnoe,2,NoA,9,209
+Molzhaninovskoe,2,NoA,10,210
+Savelovskoe,2,NoA,11,211
+Sokol,2,NoA,12,212
+Timirjazevskoe,2,NoA,13,213
+Vojkovskoe,2,NoA,14,214
+Vostochnoe Degunino,2,NoA,15,215
+Zapadnoe Degunino,2,NoA,16,216
+Alekseevskoe,3,NEA,1,301
+Altuf'evskoe,3,NEA,2,302
+Babushkinskoe,3,NEA,3,303
+Bibirevo,3,NEA,4,304
+Butyrskoe,3,NEA,5,305
+Jaroslavskoe,3,NEA,6,306
+Juzhnoe Medvedkovo,3,NEA,7,307
+Lianozovo,3,NEA,8,308
+Losinoostrovskoe,3,NEA,9,309
+Mar'ina Roshha,3,NEA,10,310
+Marfino,3,NEA,11,311
+Ostankinskoe,3,NEA,12,312
+Otradnoe,3,NEA,13,313
+Rostokino,3,NEA,14,314
+Severnoe,3,NEA,15,315
+Severnoe Medvedkovo,3,NEA,16,316
+Sviblovo,3,NEA,17,317
+Bogorodskoe,4,EA,1,401
+Gol'janovo,4,EA,2,402
+Ivanovskoe,4,EA,3,403
+Izmajlovo,4,EA,4,404
+Kosino-Uhtomskoe,4,EA,5,405
+Metrogorodok,4,EA,6,406
+Novogireevo,4,EA,7,407
+Novokosino,4,EA,8,408
+Perovo,4,EA,9,409
+Preobrazhenskoe,4,EA,10,410
+Severnoe Izmajlovo,4,EA,11,411
+Sokol'niki,4,EA,12,412
+Sokolinaja Gora,4,EA,13,413
+Veshnjaki,4,EA,14,414
+Vostochnoe,4,EA,15,415
+Vostochnoe Izmajlovo,4,EA,16,416
+Juzhnoportovoe,5,SEA,1,501
+Kapotnja,5,SEA,2,502
+Kuz'minki,5,SEA,3,503
+Lefortovo,5,SEA,4,504
+Ljublino,5,SEA,5,505
+Mar'ino,5,SEA,6,506
+Nekrasovka,5,SEA,7,507
+Nizhegorodskoe,5,SEA,8,508
+Pechatniki,5,SEA,9,509
+Rjazanskij,5,SEA,10,510
+Tekstil'shhiki,5,SEA,11,511
+Vyhino-Zhulebino,5,SEA,12,512
+Birjulevo Vostochnoe,6,SA,1,601
+Birjulevo Zapadnoe,6,SA,2,602
+Brateevo,6,SA,3,603
+Caricyno,6,SA,4,604
+Chertanovo Central'noe,6,SA,5,605
+Chertanovo Juzhnoe,6,SA,6,606
+Chertanovo Severnoe,6,SA,7,607
+Danilovskoe,6,SA,8,608
+Donskoe,6,SA,9,609
+Moskvorech'e-Saburovo,6,SA,10,610
+Nagatino-Sadovniki,6,SA,11,611
+Nagatinskij Zaton,6,SA,12,612
+Nagornoe,6,SA,13,613
+Orehovo-Borisovo Juzhnoe,6,SA,14,614
+Orehovo-Borisovo Severnoe,6,SA,15,615
+Zjablikovo,6,SA,16,616
+Poselenie Vnukovskoe,6,SA,17,617
+Akademicheskoe,7,SWA,1,701
+Cheremushki,7,SWA,2,702
+Gagarinskoe,7,SWA,3,703
+Jasenevo,7,SWA,4,704
+Juzhnoe Butovo,7,SWA,5,705
+Kon'kovo,7,SWA,6,706
+Kotlovka,7,SWA,7,707
+Lomonosovskoe,7,SWA,8,708
+Obruchevskoe,7,SWA,9,709
+Severnoe Butovo,7,SWA,10,710
+Teplyj Stan,7,SWA,11,711
+Zjuzino,7,SWA,12,712
+Dorogomilovo,8,WA,1,801
+Filevskij Park,8,WA,2,802
+Fili Davydkovo,8,WA,3,803
+Krylatskoe,8,WA,4,804
+Kuncevo,8,WA,5,805
+Mozhajskoe,8,WA,6,806
+Novo-Peredelkino,8,WA,7,807
+Ochakovo-Matveevskoe,8,WA,8,808
+Prospekt Vernadskogo,8,WA,9,809
+Ramenki,8,WA,10,810
+Solncevo,8,WA,11,811
+Troparevo-Nikulino,8,WA,12,812
+Vnukovo,8,WA,13,813
+Horoshevo-Mnevniki,9,NWA,1,901
+Juzhnoe Tushino,9,NWA,2,902
+Kurkino,9,NWA,3,903
+Mitino,9,NWA,4,904
+Pokrovskoe Streshnevo,9,NWA,5,905
+Severnoe Tushino,9,NWA,6,906
+Shhukino,9,NWA,7,907
+Strogino,9,NWA,1,901
+Krjukovo,10,Zelenograd,2,1002
+Matushkino,10,Zelenograd,3,1003
+Savelki,10,Zelenograd,4,1004
+Silino,10,Zelenograd,5,1005
+Staroe Krjukovo,10,Zelenograd,6,1006
+Poselenie Desjonovskoe,11,Novomoskovsky,1,1101
+Poselenie Filimonkovskoe,11,Novomoskovsky,2,1102
+Poselenie Kokoshkino,11,Novomoskovsky,3,1103
+Poselenie Marushkinskoe,11,Novomoskovsky,4,1104
+Poselenie Moskovskij,11,Novomoskovsky,5,1105
+Poselenie Mosrentgen,11,Novomoskovsky,6,1106
+Poselenie Rjazanovskoe,11,Novomoskovsky,7,1107
+Poselenie Shherbinka,11,Novomoskovsky,8,1108
+Poselenie Sosenskoe,11,Novomoskovsky,9,1109
+Poselenie Voskresenskoe,11,Novomoskovsky,10,1110
+Poselenie Kievskij,12,Troitsky,1,1201
+Poselenie Klenovskoe,12,Troitsky,2,1202
+Poselenie Krasnopahorskoe,12,Troitsky,3,1203
+Poselenie Mihajlovo-Jarcevskoe,12,Troitsky,4,1204
+Poselenie Novofedorovskoe,12,Troitsky,5,1205
+Poselenie Pervomajskoe,12,Troitsky,6,1206
+Poselenie Rogovskoe,12,Troitsky,7,1207
+Poselenie Shhapovskoe,12,Troitsky,8,1208
+Poselenie Voronovskoe,12,Troitsky,9,1209
+Troickij okrug,12,Troitsky,10,1210
